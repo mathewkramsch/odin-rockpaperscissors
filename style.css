@@ -1,0 +1,53 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial;
+    font-size: 36px;
+    height: 100%;
+}
+
+body {
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    top: 36px;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto 260px auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.gameButtonContainer {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gameButton {
+    font-size: inherit;
+    padding: 20px;
+    min-width: 200px;
+    cursor: pointer;
+} .gameButton:hover {
+    transform: translateY(5px);
+}
+
+#startButton {
+}
